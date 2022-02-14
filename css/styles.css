@@ -39,7 +39,6 @@ a {
 .resume-col-left-content {
   width: 30%;
   padding-bottom: 30px;
-  background-color: rgb(136, 158, 199);
 }
 
 .resume-col-left-content,
@@ -91,6 +90,7 @@ a {
 .resume-col-right-content {
   flex: 1;
   position: relative;
+  border-left: 2px solid #000;
 }
 
 .resume-experience-item-content h4 {
