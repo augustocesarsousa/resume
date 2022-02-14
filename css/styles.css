@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+.title-content {
+  font-size: 1em;
+  padding-left: 30px;
+  padding: 40px 20px;
+}
+
+.img-icon {
+  width: 18px;
+}
+
+.img-text {
+  display: flex;
+}
+
+.img-text img {
+  margin-right: 10px;
+}
+
+.resume-container {
+  display: flex;
+  width: 900px;
+  height: 1250px;
+  padding: 20px 0;
+  margin: auto;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+
+.resume-col-left-content {
+  width: 30%;
+  padding-bottom: 30px;
+  background-color: rgb(136, 158, 199);
+}
+
+.resume-col-left-content,
+.resume-col-right-content {
+  padding: 15px;
+}
+
+.resume-name-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-bottom: 2px solid #000;
+  margin-bottom: 25px;
+}
+
+.resume-name-content img {
+  width: 70%;
+  margin-bottom: 25px;
+  border-radius: 50%;
+}
+
+.resume-name-content h1 {
+  text-transform: uppercase;
+  font-size: 1.7em;
+  margin-bottom: 25px;
+}
+
+.resume-objective-content {
+  margin-top: 30px;
+}
+
+.resume-objective-content h2 {
+  text-transform: uppercase;
+  font-size: 1em;
+  text-align: center;
+}
+
+.resume-profile-content p {
+  padding-left: 20px;
+  text-align: justify;
+}
+
+.resume-contact-item-content,
+.resume-hobby-item-content {
+  margin-bottom: 15px;
+}
+
+.resume-col-right-content {
+  flex: 1;
+  position: relative;
+}
+
+.resume-experience-item-content h4 {
+  margin-bottom: 15px;
+}
+
+.resume-experience-item-content ul {
+  padding: 15px 0 15px 50px;
+}
+
+.resume-experience-item-content ul li {
+  padding: 10px 0;
+  text-align: justify;
+}
+
+.resume-education-item-content {
+  margin-bottom: 25px;
+}
+
+.resume-education-item-content h4 {
+  margin-bottom: 15px;
+}
+
+#sentence-content {
+  padding: 10px;
+  font-size: 0.8em;
+  font-style: italic;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
